@@ -1,0 +1,43 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081"
+	},
+	"version": "v0.0.2",
+	"id": "geode.additional-settings",
+	"name": "Additional Settings",
+	"developer": "retrei1",
+	"description": "Adds useful settings like FPS bypass and layout mode",
+	"links": {
+		"source": "https://github.com/retrei1/additional-settings"
+	},
+	"settings": {
+		"fps-bypass": {
+			"name": "FPS Bypass",
+			"description": "Removes FPS cap for smoother gameplay",
+			"type": "bool",
+			"default": false
+		},
+		"fps-limit": {
+			"name": "FPS Limit",
+			"description": "Maximum frames per second (only works if FPS Bypass is on)",
+			"type": "int",
+			"default": 240,
+			"min": 60,
+			"max": 1000
+		},
+		"layout-mode": {
+			"name": "Layout Mode",
+			"description": "Enables editor layout mode without testing",
+			"type": "bool",
+			"default": false
+		},
+		"show-fps": {
+			"name": "Show FPS",
+			"description": "Показывает счётчик кадров в углу экрана",
+			"type": "bool",
+			"default": false
+		}
+	}
+}
